@@ -1,0 +1,153 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*cabecera*/
+header{
+    height: 69px;
+    width: 100%;
+    border: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    z-index: 2;
+}
+
+.logo {
+    z-index: 3;
+    height: 50px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+.banner {
+    display: flex;
+    margin-right: 10px;
+}
+
+.enlace {
+    display: inline;
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+
+/*main*/
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/*imagen grande*/
+
+.imagen {
+    height: 700px;
+    width: 1200px;
+    background-image: url(images/img-mission-background.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.mission {
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+
+/*productos*/
+.products {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.products h2, .products h4 {
+    margin: 10px auto;
+}
+
+.imageContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+}
+
+.foto {
+    height: 200px;
+    width: 300px;
+}
+
+/*locations*/
+
+.locationsContainer {
+    height: 500px;
+    width: 1200px;
+    background-image: url(images/img-locations-background.jpg);
+    background-position: center;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.locationsContainer h2 {
+    display: block;
+    width: 1200px;
+    margin-bottom: 15px;
+}
+
+.location{
+    background-color: black;
+    opacity: 1;
+    height: 280px;
+    width: 300px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*contacto*/
+
+.contacto {
+    height: 200px;
+    width: 1000px;
+}
+
+/*copyright*/
+
+.copyright {
+    margin-top: 20px;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
